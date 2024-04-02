@@ -1,3 +1,5 @@
+let speed=prompt('Enter speed of car')
+detectSpeed(speed)
 function detectSpeed(speed) {
     const kmPerDemerit = 5
     const maxDemerit = 12
@@ -16,5 +18,3 @@ function detectSpeed(speed) {
         }
     }
 }
-// input car speed here
-console.log(speed())
